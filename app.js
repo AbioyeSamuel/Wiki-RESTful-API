@@ -107,6 +107,7 @@ app.route("/articles/:articleTitle")
   );
 });
 
+//Restful API containing articles having title and content
 
 app.listen(3000, function() {
   console.log("Server started on port 3000");
